@@ -1,0 +1,39 @@
+body{
+           background-color: rgb(246, 208, 195);
+}
+.menu{
+           background-color: rgb(133, 190, 251);
+           height: 85px;
+           width: 99vw;
+           display: flex;
+           justify-content: space-between;
+           align-items: center;
+           border-bottom: 1px solid rgb(246, 208, 195);
+           box-shadow: 5px 0px 10px rgba(0, 0, 0, 0.254);
+}
+.logo{
+           font-family: 'Archivo Black', sans-serif;
+           font-size: 40px;
+           padding: 0px 80px;
+           color: antiquewhite;
+}
+.items{
+           display: flex;
+           list-style: none;
+           margin-right: 10px;
+}
+.items li{
+           border-radius: 2px;
+           margin: 0px 5px;
+}
+.items li a{
+           padding: 7px 13px;
+           text-decoration: none;
+           font-size: 19px;
+           color: antiquewhite;
+           font-family: 'Quicksand', sans-serif;
+}
+.items li a:hover{
+           background-color: rgb(84, 166, 254);
+           transition: .4s;
+}
